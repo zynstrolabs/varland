@@ -1,0 +1,23 @@
+{
+  "name": "@varland/indexer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "lint": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@varland/shared": "workspace:*",
+    "dotenv": "^16.4.5",
+    "pg": "^8.12.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^24",
+    "@types/pg": "^8.11.0",
+    "tsx": "^4.16.2",
+    "typescript": "5.7.3"
+  }
+}
