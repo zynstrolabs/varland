@@ -8,8 +8,20 @@ __v0_jsx-dev-runtime.ts
 
 # Environment variables
 .env*.local
+apps/indexer/.env
 
 # Common ignores
 node_modules
 .next/
 .DS_Store
+
+# Turborepo
+.turbo/
+
+# TypeScript build output
+dist/
+
+# Rust / Soroban
+target/
+**/*.rs.bk
+Cargo.lock

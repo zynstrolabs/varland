@@ -1,7 +1,6 @@
 packages:
   - "apps/*"
   - "packages/*"
-  - "contracts/*"
 
 pmOnFail: ignore
 
